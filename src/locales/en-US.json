@@ -1,0 +1,32 @@
+{
+	"lang" : "English",
+	"app.title": "UMI",
+	"title": "UMI: NFT Marketplace",
+	"desc": "NFT Marketplace at UMI",
+	
+	"email.login.subject": "[UMI] Verify your login",
+	"email.login.content": "Verify your login!\nPlease use the following code to verify your login\nVerification code:\n{{code}}\nThe verification code will be valid for 30 minutes.\nPlease do not share this code with anyone.",
+	"email.register.subject": "[UMI] Verify your registration",
+	"email.register.content": "Verify your registration!\nPlease use the following code to verify your registration\nVerification code:\n{{code}}\nThe verification code will be valid for 30 minutes.\nPlease do not share this code with anyone.",
+	"email.request.subject": "[UMI] Verify your password reset request",
+	"email.request.content": "Verify your password reset request\nYou've requested to reset the password.\nplease use the 6-digit code below:\n{{code}}\nThe verification code will be valid for 30 minutes.\nPlease do not share this code with anyone.",
+	"email.reset.subject": "[UMI] Password reset",
+	"email.reset.content": "Password reset\nNote: After updating your password, we'll disable withdrawals for 24 hours.\nTo confirm your request, \n<a href={{url}} target='_blank'>{{url}}</a>\nThe url will be valid for 30 minutes.\nPlease do not share this url with anyone.",
+	"email.reset-success.subject": "[UMI] Password reset",
+	"email.reset-success.content": "Password reset\nYour password has been changed successfully. \nTo be extra safe, log out of all active sessions and log in using your new password. \nIf you didn't make this change, please contact our support team for assistance.",
+	
+	"email.id-approve.subject": "[UMI] ID verification",
+	"email.id-approve.content": "ID verification\nConglatulation!\nYour ID verification process was successfully completed.\nNow, your verification level already upgraded to L2.",
+	"email.id-reject.subject": "[UMI] ID verification",
+	"email.id-reject.content": "ID verification\nThank you for submitting your ID document for verification. \nWe’re unable to complete the verification as there was a problem image quality or incorrect document. \nPlease try uploading the document again.",
+	
+	"sms.verify": "[UMI] your verification code is {{code}}",
+
+	"error.32700":"Invalid JSON was received by the server. An error occurred on the server while parsing the JSON text.",
+	"error.32600":	"The JSON sent is not a valid Request object.",
+	"error.32601":	"The method does not exist / is not available.",
+	"error.32602":	"Invalid method parameter(s).",
+	"error.32603":	"Internal JSON-RPC error.",
+	"error.32000":	"Reserved for implementation-defined server-errors.",
+	"-1":	"Network disconnected"
+}

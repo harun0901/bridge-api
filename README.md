@@ -1,0 +1,1 @@
+# galaxychain bridge api
